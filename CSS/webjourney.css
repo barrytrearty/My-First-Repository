@@ -1,0 +1,123 @@
+body{
+  background: linear-gradient(35deg, #CCFFFF 20%, #FFCCCC);
+  color: black;
+  font: normal 12px monospace, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin:0;
+}
+
+.main-header{
+  background:linear-gradient(35deg, #66FFFF, #FFCCCC);
+  width: 100%;
+  padding:0;
+  margin-top: 0;
+  /*position: fixed;*/ /*Could be removed*/
+}
+
+.main-header h1{
+  color: #008800;
+  padding:20px;
+  text-align: center;
+}
+
+.main-header a{
+  text-decoration: none;
+  color: #008800;
+  text-align: center;
+  text-shadow: 1px 1px #a0a0a0;
+}
+
+.navbar{
+  background:linear-gradient(100deg, #FFCCCC, #CCFFFF);
+}
+
+.navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+.navbar li{
+  display: inline;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+.navbar li:hover{
+  background:#CFC1CF;
+}
+
+.navbar a{
+  color:#FF2200;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.container{
+  padding-top: 2%;
+  background-color: #CFC1CF;
+  width: 80%;
+  border:5px black solid;
+  margin-top:auto;
+  margin-left: auto;
+  margin-bottom: 4%;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.programming{
+  padding-left: 20px;
+  border:5px black solid;
+}
+
+.programming-text{
+  float: left;
+  padding-left: 20px;
+  text-align: left;
+  width:60%
+}
+
+.programming-text ul{
+  padding-left:0px;
+  list-style: none;
+}
+
+.programming-text a{
+  color:black;
+}
+
+
+.empha{
+  font-style: italic;
+}
+
+.thumbnail{
+  padding-top:3%;
+  padding-left:2%;
+  background-color: #CFC1CF;
+  width:80%;
+  margin:auto;
+}
+
+.logo{
+  height:20%;
+  border:1px solid #ccc;
+  width:28%;
+  /*height:20%;*/
+  padding:2%;
+}
+
+.pagelogo{
+  width: 30%;
+  display: inline-block;
+}
+
+.pagelogo img{
+  width: 80%;
+  padding:4%;
+}
+
+.current{
+  background: #00FF00;
+}
